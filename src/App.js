@@ -16,6 +16,7 @@ class App extends Component{
   }
 }
 
+
 function mapStateToProps (state){
   console.log(state.student);
   return {a:state}
